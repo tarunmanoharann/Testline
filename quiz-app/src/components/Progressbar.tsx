@@ -5,7 +5,7 @@ interface ProgressBarProps {
   total: number;
 }
 
-const ProgressBar: React.FC<ProgressBarProps> = ({ current, total }) => {
+const Progressbar: React.FC<ProgressBarProps> = ({ current, total }) => {
   const progress = (current / total) * 100;
 
   return (
@@ -18,4 +18,4 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ current, total }) => {
   );
 };
 
-export default ProgressBar;
+export default Progressbar;
