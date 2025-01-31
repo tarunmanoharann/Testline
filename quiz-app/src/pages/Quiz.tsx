@@ -3,7 +3,7 @@ import QuizCard from '../components/QuizCard';
 import QuizSummary from '../components/QuizSummary';
 import ProgressBar from '../components/Progressbar';
 import { fetchQuizData } from '../utils/api';
-import { QuizData, QuizQuestion } from '../types/quizTypes';
+import { QuizData } from '../types/quizTypes';
 
 const Quiz: React.FC = () => {
   const [quizData, setQuizData] = useState<QuizData | null>(null);
